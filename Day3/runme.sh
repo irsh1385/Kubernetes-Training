@@ -1,3 +1,4 @@
+kubectl create ns ingress
 kubectl apply -f app-deployment.yaml
 kubectl apply -f app-service.yaml
 kubectl apply -f default-backend-deployment.yaml
