@@ -28,7 +28,7 @@ spec:
               port: 10254
               scheme: HTTP
             initialDelaySeconds: 10
-            timeoutSeconds: 5
+            timeoutSeconds: 30 
           args:
             - /nginx-ingress-controller
             - --default-backend-service=$(POD_NAMESPACE)/default-backend
